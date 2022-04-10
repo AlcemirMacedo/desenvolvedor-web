@@ -195,6 +195,29 @@ header{
     line-height: 25px;
 }
 
+.services{
+    display: flex;
+}
+.serv-item{
+    flex:1;
+    text-align: center;
+    border-left: 1px solid #333;
+    padding: 15px;
+}
+.services:first-child{
+    border-right: 1px solid #333;
+}
+.serv-item h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.serv-item p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #999;
+}
+
 
 
 
