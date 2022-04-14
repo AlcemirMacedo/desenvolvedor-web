@@ -331,8 +331,9 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: black;
     height: 100%;
+    padding: 30px;
 }
 .ourteam .slider-pointers{
     height: 20px;
@@ -351,5 +352,37 @@ header{
     cursor: pointer;
 }
 .ourteam .active{
+    background-color: #b28756;
+}
+.avatar{
+    width: 100px;
+    height: auto;
+}
+.name-team{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.role-team{
+    color: #999;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.midia-team{
+    display: flex;
+    margin-top: 20px;
+}
+.midia-team a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+.midia-team a:hover{
     background-color: #b28756;
 }
