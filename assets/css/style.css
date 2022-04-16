@@ -386,3 +386,91 @@ header{
 .midia-team a:hover{
     background-color: #b28756;
 }
+
+
+
+/* CLIENTS */
+
+.happycli{
+    overflow: hidden;
+    max-width: 880px;
+    margin: auto;
+    
+}
+.happycli .sliders{
+    width: 1000vw;
+    height: 100%;
+    display: flex;
+}
+.happycli .slide{
+    width: 880px;
+    height: 100%;
+}
+.happycli .slidearea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    height: 100%;
+    padding: 30px;
+}
+.happycli .slider-pointers{
+    height: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.happycli .pointer{
+    height: 15px;
+    width: 15px;
+    border-radius: 8px;
+    border: 2px solid #b28756;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.happycli .active{
+    background-color: #b28756;
+}
+.avatar{
+    width: 100px;
+    height: auto;
+}
+.name-happycli{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 30px;
+}
+.role-happycli{
+    color: black;
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 600;
+}
+.quote-happycli{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.depoimento-happycli{
+    color: #999;
+    text-align: center;
+    line-height: 25px;
+}
+.depoimento-happycli p{
+    width: 600px;
+}
+
+
+.clilogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bgwhite{
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #999;
+}
